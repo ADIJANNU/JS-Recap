@@ -33,4 +33,15 @@ const addThree = (num1, num2) => (num1 + num2 )
 
 console.log(addThree(3,5));
 
-const myArr = [1,2,34,5]
+//  IIFE -> Immediately invoked function
+
+(function chai() { // Named IIFE
+    console.log('Connected');
+}) ();
+
+((name) => { // Simple IIFE
+    console.log(`Connected ${name}`);
+})('DB');
+
+
+
