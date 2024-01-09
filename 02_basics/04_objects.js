@@ -9,7 +9,7 @@ console.log(tinderUser);
 const regularUser = {
     email: "xyz@yahoo.com",
     fullname: {
-        userfullname: {
+        userfullname: { 
             firstname: "Tony",
             lastname: "Stark"
         }
